@@ -70,9 +70,14 @@ a:visited {
   color: #8B2F13;
 }
 
-a:not( [href*='yourdomain.com']):not( [href^='#']):not( [href^='/']):not( [href^='mailto:'] ):after {
+a:not( [href*='yourdomain.com']):not( [href^='#']):not( [href^='/']):not( [href*='mailto'] ):after {
   font-family: 'FontAwesome';
   content: " \f08e";
+}
+
+a[href*='mailto']:after {
+	font-family: 'FontAwesome';
+  content: " \f003";
 }
 
 
