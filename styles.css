@@ -25,10 +25,6 @@ h1 {
   text-align: center;
   color: #1FDA9A;
 
-  /* Popup animation */
-  -webkit-animation: text-shadow-pop-bl 0.8s both;
-  -moz-animation: text-shadow-pop-bl 0.8s both;
-  animation: text-shadow-pop-bl 0.8s both;
 }
 
 h2,
@@ -39,6 +35,12 @@ h5 {
   font-weight: 400;
 }
 
+.run-animation {
+  /* Popup animation */
+  -webkit-animation: text-shadow-pop-bl 0.8s both;
+  -moz-animation: text-shadow-pop-bl 0.8s both;
+  animation: text-shadow-pop-bl 0.8s both;
+}
 
 .main__content {
   max-width: 800px;
