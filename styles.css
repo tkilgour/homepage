@@ -10,8 +10,6 @@ html {
   font-size: 24px;
   background-color: #F2F2F3;
 
-  /* prevent iphone highlight overlay on tap */
-  -webkit-tap-highlight-color: rgba(0,0,0,0); 
 }
 
 header {
@@ -43,6 +41,9 @@ h5 {
   -webkit-animation: text-shadow-pop-bl 0.8s both;
   -moz-animation: text-shadow-pop-bl 0.8s both;
   animation: text-shadow-pop-bl 0.8s both;
+  
+  /* prevent iphone highlight overlay on tap */
+  -webkit-tap-highlight-color: rgba(0,0,0,0); 
 }
 
 .main__content {
