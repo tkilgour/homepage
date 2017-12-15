@@ -25,7 +25,8 @@ h1 {
   padding: 30px 10px;
   text-align: center;
   color: #1FDA9A;
-
+  /* prevent iphone highlight overlay on tap */
+  -webkit-tap-highlight-color: rgba(0,0,0,0); 
 }
 
 h2,
@@ -41,9 +42,6 @@ h5 {
   -webkit-animation: text-shadow-pop-bl 0.8s both;
   -moz-animation: text-shadow-pop-bl 0.8s both;
   animation: text-shadow-pop-bl 0.8s both;
-  
-  /* prevent iphone highlight overlay on tap */
-  -webkit-tap-highlight-color: rgba(0,0,0,0); 
 }
 
 .main__content {
