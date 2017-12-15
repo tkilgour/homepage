@@ -41,16 +41,20 @@ h5 {
 
 
 .main__content {
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 800px;
+  margin: 30px auto 0 auto;
   padding: 15px;
   line-height: 1.6;
-
-  color: #;
 }
 
 p {
   margin: 0 0 1em 0;
+}
+
+code {
+	background-color: #D8D8DA;
+	border-radius: 0.2em;
+	padding: 0 0.2em;
 }
 
 a {
@@ -72,12 +76,14 @@ a:visited {
 
 a:not( [href*='yourdomain.com']):not( [href^='#']):not( [href^='/']):not( [href*='mailto'] ):after {
   font-family: 'FontAwesome';
-  content: " \f08e";
+  content: "\f08e";
+  padding-left: .3em;
 }
 
 a[href*='mailto']:after {
 	font-family: 'FontAwesome';
-  content: " \f003";
+  content: "\f003";
+  padding-left: .3em;
 }
 
 
@@ -119,9 +125,6 @@ a[href*='mailto']:after {
     /* Where: * 0.7143 = 100 * font_Size_Difference / viewport_Width_Difference */
   }
 
-  h1 {
-    /* font-size: calc(1.7rem + (30 - 20) * ((150vw - 639px)/ (1200 - 639))); */
-  }
 }
 
 
@@ -133,7 +136,4 @@ a[href*='mailto']:after {
     font-size: 28px;
   }
 
-  h1 {
-    /* font-size: 3rem; */
-  }
 }
