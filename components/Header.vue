@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1 id="name" class="run-animation" @click="handleHeaderClick">Thomas<br />Kilgour</h1>
+    <h1 id="name" class="run-animation">Thomas<br />Kilgour</h1>
   </header>
 </template>
 
